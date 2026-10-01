@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1790717781 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1790717956 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 1.8.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1790718241 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 1.1.c
+	<stdio.h>
+
+1790718503 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 1.2.c
+	<stdio.h>
+
+1790718554 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 1.3.c
+	<stdio.h>
+
+1790719109 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 2.1.c
+	<stdio.h>
+
+1790720151 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 2.2.c
+	<stdio.h>
+
+1790721695 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 2.3.c
+	<stdio.h>
+
+1790811602 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 2.4.c
+	<stdio.h>
+
+1790811991 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 2.5.c
+	<stdio.h>
+	<math.h>
+
+1790812250 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 2.7.c
+	<stdio.h>
+
+1790818280 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 2.12.c
+	<stdio.h>
+	<math.h>
+
+1790876131 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 2.14.c
+	<stdio.h>
+
+1790876259 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Tarea 2/TAREA2/Programa 2.15.c
+	<stdio.h>
+
