@@ -34,7 +34,22 @@
 		<Linker>
 			<Add option="-lm" />
 		</Linker>
-		<Unit filename="Programa 2.13.c">
+		<Unit filename="Programa 3.11.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 3.12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 3.13.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 3.14.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 3.15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 3.16.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions />
