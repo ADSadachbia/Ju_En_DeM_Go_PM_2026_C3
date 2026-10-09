@@ -85,18 +85,6 @@
 		<Unit filename="Programa 6.1.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Programa 6.10.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Programa 6.11.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Programa 6.12.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Programa 6.13.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="Programa 6.2.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -116,9 +104,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Programa 6.8.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Programa 6.9.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions />
