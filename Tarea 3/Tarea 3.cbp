@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Tarea 3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Tarea 3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Tarea 3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Programa 4.1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.11.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.13.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.14.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.17.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.18.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.19.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.21.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.22.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.23.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.24.c">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="Programa 4.3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Programa 4.9.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

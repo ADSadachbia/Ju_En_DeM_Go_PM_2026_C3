@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1790883224 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Clase 4/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1790886142 source:/media/adsadachbia/A-Working/Code/Blocks/Clases/Clase 4/Calculador.c
+	<stdio.h>
+	<stdlib.h>
+
