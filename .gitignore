@@ -1,0 +1,10 @@
+# Archivos de entorno y secretos
+.env
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de Visual Studio Code
+.vscode/settings.json
