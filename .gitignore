@@ -1,6 +1,7 @@
 # Archivos de entorno y secretos
 .env
 *.log
+*.exe
 
 # Archivos del sistema operativo
 .DS_Store
