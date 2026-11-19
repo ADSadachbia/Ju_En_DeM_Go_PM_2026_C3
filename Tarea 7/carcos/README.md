@@ -1,17 +1,32 @@
 # Calculadora de costo de viaje (C)
 
-Programa de consola en C para administrar vehículos y calcular el costo de un
-viaje y el costo por kilómetro.
+Programa en C para administrar vehículos y calcular el costo de un viaje y el
+costo por kilómetro. Tiene **dos interfaces**: consola (`viaje.c`) y ventana
+GTK 3 (`viaje_gui.c`). Ambas comparten el mismo archivo de datos.
 
 ## Compilar y ejecutar
 
 ```bash
-make          # compila ./viaje
-make run      # compila y ejecuta
-make clean    # borra el binario y los datos
+make          # compila viaje (consola) y viaje_gui (ventana)
+make run      # compila y ejecuta la versión de consola
+make gui      # compila y ejecuta la versión gráfica (requiere GTK 3)
+make clean    # borra los binarios y reporte_viaje.txt
 ```
 
-Los vehículos se guardan en `vehiculos.dat` (en el directorio actual).
+Los vehículos se guardan en `vehiculos.dat` (en el directorio actual) y no se
+borran con `make clean`.
+
+## Interfaz gráfica (GTK 3)
+
+`make gui` abre una ventana con dos pestañas:
+
+- **Vehículos**: combo para elegir vehículo, botones *Nuevo*, *Guardar* y
+  *Borrar* (con confirmación), y un formulario con los 12 parámetros.
+- **Calcular viaje**: elige vehículo, distancia, % carretera, % ciudad y
+  precio del combustible. Muestra el desglose en un área de texto y permite
+  exportarlo con *Guardar reporte* a `reporte_viaje.txt`.
+
+Requisito: `gtk+-3.0` (verificado con `pkg-config --modversion gtk+-3.0`).
 
 ## Funciones
 

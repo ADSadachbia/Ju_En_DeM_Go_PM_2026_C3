@@ -1,16 +1,23 @@
-CC      ?= gcc
-CFLAGS  ?= -std=c11 -Wall -Wextra -O2
-TARGET   = viaje
+CC       ?= gcc
+CFLAGS   ?= -std=c11 -Wall -Wextra -O2
+GTKFLAGS  = $(shell pkg-config --cflags gtk+-3.0)
+GTKLIBS   = $(shell pkg-config --libs gtk+-3.0)
 
-all: $(TARGET)
+all: viaje viaje_gui
 
-$(TARGET): viaje.c
-	$(CC) $(CFLAGS) -o $(TARGET) viaje.c
+viaje: viaje.c
+	$(CC) $(CFLAGS) -o $@ $<
 
-run: $(TARGET)
-	./$(TARGET)
+viaje_gui: viaje_gui.c
+	$(CC) $(CFLAGS) $(GTKFLAGS) -o $@ $< $(GTKLIBS)
+
+run: viaje
+	./viaje
+
+gui: viaje_gui
+	./viaje_gui
 
 clean:
-	rm -f $(TARGET) vehiculos.dat
+	rm -f viaje viaje_gui reporte_viaje.txt
 
-.PHONY: all run clean
+.PHONY: all run gui clean
